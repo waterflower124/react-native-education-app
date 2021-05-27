@@ -1,0 +1,53 @@
+{
+  "name": "postgrad",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.14.1",
+    "@react-native-community/datetimepicker": "^3.4.3",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/viewpager": "^5.0.11",
+    "@react-navigation/drawer": "^5.12.4",
+    "@react-navigation/native": "^5.9.3",
+    "@react-navigation/stack": "^5.14.3",
+    "moment": "^2.29.1",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-event-listeners": "^1.0.7",
+    "react-native-fast-image": "^8.3.4",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-iap": "^6.0.2",
+    "react-native-image-picker": "^3.3.2",
+    "react-native-keyboard-aware-scroll-view": "^0.9.3",
+    "react-native-modal-datetime-picker": "^9.2.0",
+    "react-native-onesignal": "^4.0.6",
+    "react-native-reanimated": "^1.9.9",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^2.18.1",
+    "react-native-scrollable-tab-view-universal": "^0.1.2",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-video": "^5.1.1",
+    "react-native-video-player": "^0.10.1",
+    "react-native-webview": "^11.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/runtime": "^7.13.10",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.22.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.65.2",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
